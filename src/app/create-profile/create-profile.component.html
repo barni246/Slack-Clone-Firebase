@@ -1,0 +1,36 @@
+
+<div class="profile-cont">
+
+    <div  class="logo-img-cont-always">
+      <img src="./assets/img/logo-intro.png">
+      <div class="title">DABubble</div>
+  </div>
+  
+  
+  <div  style="position: absolute; right: 30px; top: 80px; cursor: pointer; border: 2px red solid;"
+    (click)="checkIntro()" [routerLink]="'/'">zu Login</div>
+  
+  
+  
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Wähle deinen Avatar</mat-card-title>
+     <img src="" alt="">
+  
+  
+      <mat-card-subtitle>Name und Nachname</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>
+  
+  <div style="position: absolute; right: 30px; top: 30px; cursor: pointer; border: 2px red solid;" 
+   [routerLink]="'/create-account'"> zu Create Account</div>
+  
+  
+  </div>
+  
+  
+  

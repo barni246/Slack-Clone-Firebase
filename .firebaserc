@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "test-9642e": {
+      "hosting": {
+        "Slack-DABuble": [
+          "test-9642e"
+        ]
+      }
+    },
+    "login-6cce8": {
+      "hosting": {
+        "Slack-DABuble": [
+          "login-6cce8"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "test-9642e"
+  }
+}
